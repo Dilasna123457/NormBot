@@ -65,7 +65,7 @@ from normbot.modules.moretools import moretooltext
 from normbot.functions.stats import bot_sys_stats
 
 PM_START_TEXT = """
-හායි, මම [normbot](https://t.me/sznormbot). මම Group Manament Bot කෙනෙක්. මාව පාවිච්චි කරන විදිහ දැන විධාන 📌 උඩ click කරන්න. වැඩි විස්තර දැන ගන්න විස්තර 📃 උඩ click කරන්න.
+හායි, මම [Avatar]. මම Group Manament Bot කෙනෙක්. මාව පාවිච්චි කරන විදිහ දැන විධාන 📌 උඩ click කරන්න. වැඩි විස්තර දැන ගන්න විස්තර 📃 උඩ click කරන්න.
 """
 
 buttons = [
@@ -74,8 +74,8 @@ buttons = [
         InlineKeyboardButton(text="විධාන 📌", callback_data="help_back" ),
     ],
     [
-        InlineKeyboardButton(text="Updates", url="https://t.me/szbots"),
-        InlineKeyboardButton(text="Owner Group", url="https://t.me/digitalgaweshakayochat"),
+        InlineKeyboardButton(text="Updates", url="https://t.me/szbotsvb"),
+        InlineKeyboardButton(text="Developer", url="https://t.me/dilasnalithmantha1"),
     ],
     [
         InlineKeyboardButton(
